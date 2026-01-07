@@ -25,6 +25,8 @@ A robust, feature-rich file encryption tool with support for batch operations, c
 
 ```bash
 # Clone or download the project
+
+git clone 
 cd secure-file-encryptor
 
 # Install dependencies
@@ -38,7 +40,7 @@ pip install -r requirements.txt
 #### Using Password:
 ```bash
 python -m src.encrypt --file test.txt
-Enter encryption password: Krish12345
+Enter encryption password: (your pass)
 [+] Strong password (entropy: 91.8 bits)
 [+] File encrypted: test.txt.enc
 ```
