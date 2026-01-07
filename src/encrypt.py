@@ -30,7 +30,7 @@ def encrypt_file(file_path: str, password: str = None, keyfile: str = None,
         # Read file
         plaintext = read_file(file_path)
         
-        # Compress if requested
+        # Compress if requested 
         if compress:
             plaintext = compress_data(plaintext)
             logger.info(f"Compressed {file_path}")
