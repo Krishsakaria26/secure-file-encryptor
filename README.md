@@ -6,6 +6,9 @@
 [![GitHub Forks](https://img.shields.io/github/forks/Krishsakaria26/secure-file-encryptor?style=social)](https://github.com/Krishsakaria26/secure-file-encryptor)
 [![Open Issues](https://img.shields.io/github/issues/Krishsakaria26/secure-file-encryptor)](https://github.com/Krishsakaria26/secure-file-encryptor/issues)
 [![Code Quality](https://img.shields.io/badge/code%20quality-A-brightgreen)](https://github.com/Krishsakaria26/secure-file-encryptor)
+[![Downloads](https://img.shields.io/github/downloads/Krishsakaria26/secure-file-encryptor/total?logo=github)](https://github.com/Krishsakaria26/secure-file-encryptor/releases)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/Krishsakaria26/secure-file-encryptor/test.yml)](https://github.com/Krishsakaria26/secure-file-encryptor/actions)
+[![Security: Good](https://img.shields.io/badge/security-good-brightgreen)](https://github.com/Krishsakaria26/secure-file-encryptor)
 
 A robust, feature-rich file encryption tool with support for batch operations, compression, secure file shredding, and integrity verification.
 
