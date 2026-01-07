@@ -205,5 +205,6 @@ MIT License - See LICENSE file for details
 
 Feel free to submit issues and enhancement requests!
 
-⭐ Show Your Support
+## ⭐ Show Your Support
+
 If you find this project useful, please give it a star on GitHub!
