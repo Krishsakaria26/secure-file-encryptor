@@ -7,7 +7,7 @@ All cryptographic operations are performed locally. No plaintext data or
 encryption keys are stored or transmitted.
 
 The system guarantees confidentiality and integrity of files even if the
-encrypted output is leaked or stolen.
+encrypted output is leaked or stolen. 
 
 ---
 
