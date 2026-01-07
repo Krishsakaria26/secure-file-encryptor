@@ -26,7 +26,8 @@ A robust, feature-rich file encryption tool with support for batch operations, c
 ```bash
 # Clone or download the project
 
-git clone 
+git clone https://github.com/Krishsakaria26/secure-file-encryptor.git
+
 cd secure-file-encryptor
 
 # Install dependencies
