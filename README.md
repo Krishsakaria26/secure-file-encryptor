@@ -2,8 +2,6 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Stars](https://img.shields.io/github/stars/Krishsakaria26/secure-file-encryptor?style=social)](https://github.com/Krishsakaria26/secure-file-encryptor)
-[![GitHub Forks](https://img.shields.io/github/forks/Krishsakaria26/secure-file-encryptor?style=social)](https://github.com/Krishsakaria26/secure-file-encryptor)
 [![Open Issues](https://img.shields.io/github/issues/Krishsakaria26/secure-file-encryptor)](https://github.com/Krishsakaria26/secure-file-encryptor/issues)
 [![Code Quality](https://img.shields.io/badge/code%20quality-A-brightgreen)](https://github.com/Krishsakaria26/secure-file-encryptor)
 [![Downloads](https://img.shields.io/github/downloads/Krishsakaria26/secure-file-encryptor/total?logo=github)](https://github.com/Krishsakaria26/secure-file-encryptor/releases)
