@@ -1,21 +1,21 @@
-# Secure File Encryptor
+# 🔐 Secure File Encryptor
 
 A robust, feature-rich file encryption tool with support for batch operations, compression, secure file shredding, and integrity verification.
 
-## Features
+## ✨ Features
 
-- **AES-256 Encryption** - Uses Fernet (symmetric encryption) with PBKDF2 key derivation
-- **HMAC Authentication** - Verifies file integrity and authenticity
-- **Password-based & Key File Support** - Encrypt with passwords or key files
-- **Batch Operations** - Encrypt/decrypt multiple files or entire directories
-- **Compression** - Optional gzip compression before encryption
-- **Secure File Shredding** - Safely delete original files with multiple passes
-- **Progress Tracking** - Visual progress bar for batch operations
-- **File Integrity Verification** - Verify encrypted files without decryption
-- **Logging** - Comprehensive operation logging
-- **Configuration** - Customizable settings via config file
+- 🔒 **AES-256 Encryption** - Uses Fernet (symmetric encryption) with PBKDF2 key derivation
+- 🛡️ **HMAC Authentication** - Verifies file integrity and authenticity
+- 🔑 **Password-based & Key File Support** - Encrypt with passwords or key files
+- 📦 **Batch Operations** - Encrypt/decrypt multiple files or entire directories
+- 📊 **Compression** - Optional gzip compression before encryption
+- 🗑️ **Secure File Shredding** - Safely delete original files with multiple passes
+- ⏳ **Progress Tracking** - Visual progress bar for batch operations
+- ✅ **File Integrity Verification** - Verify encrypted files without decryption
+- 📋 **Logging** - Comprehensive operation logging
+- ⚙️ **Configuration** - Customizable settings via config file
 
-## Installation
+## 📥 Installation
 
 ### Prerequisites
 - Python 3.8+
@@ -34,9 +34,9 @@ cd secure-file-encryptor
 pip install -r requirements.txt
 ```
 
-## Usage
+## 🚀 Usage
 
-### Encrypt a File
+### 🔐 Encrypt a File
 
 #### Using Password:
 ```bash
@@ -65,7 +65,7 @@ python -c "from src.key_file_manager import generate_key_file; generate_key_file
 python -m src.encrypt --file test.txt --keyfile .key
 ```
 
-### Decrypt a File
+### 🔓 Decrypt a File
 
 #### Basic Decryption:
 ```bash
@@ -84,7 +84,7 @@ python -m src.decrypt --file test.txt.enc --out test.txt --decompress
 python -m src.decrypt --file test.txt.enc --out test.txt --keyfile .key
 ```
 
-### Batch Operations
+### 📦 Batch Operations
 
 #### Encrypt All Files in Directory:
 ```bash
@@ -101,7 +101,7 @@ python -m src.encrypt --file "*.txt"
 python -m src.decrypt --file "*.enc"
 ```
 
-### Verify File Integrity
+### ✅ Verify File Integrity
 
 ```bash
 python -m src.verify --file test.txt.enc --password Krish12345
@@ -114,7 +114,7 @@ python -m src.verify --file test.txt.enc
 [+] File has valid encrypted structure
 ```
 
-## Password Requirements
+## 🔐 Password Requirements
 
 Passwords must meet the following criteria:
 - Minimum 10 characters
@@ -126,7 +126,7 @@ Passwords must meet the following criteria:
 
 Example strong password: `MyPass123!@`
 
-## Configuration
+## ⚙️ Configuration
 
 Configuration is stored at `~/.secure_file_encryptor/config.json`
 
@@ -142,21 +142,21 @@ Default settings:
 }
 ```
 
-## File Format
+## 📄 File Format
 
 Encrypted files have the following structure:
 ```
 [Salt (16 bytes)] + [HMAC-SHA256 (32 bytes)] + [Encrypted Data]
 ```
 
-## Security Notes
+## 🔒 Security Notes
 
 - **Key Derivation**: PBKDF2-HMAC-SHA256 with 200,000 iterations
 - **Encryption**: Fernet (AES-128 in CBC mode with HMAC authentication)
 - **File Shredding**: 3-pass overwrite with random data before deletion
 - **HMAC**: Verifies both authenticity and integrity
 
-## Examples
+## 💡 Examples
 
 ### Encrypt Important Documents
 ```bash
@@ -173,7 +173,7 @@ python -m src.encrypt --file backup.tar.gz --compress --output backup.secure
 python -m src.encrypt --file "*.log" --shred
 ```
 
-## Logging
+## 📝 Logging
 
 All operations are logged to `logs/encryptor_YYYYMMDD_HHMMSS.log`
 
@@ -182,7 +182,7 @@ Check logs for:
 - Errors and warnings
 - Compression and shredding operations
 
-## Troubleshooting
+## 🐛 Troubleshooting
 
 ### "Weak password rejected"
 - Ensure password meets all requirements
@@ -197,10 +197,13 @@ Check logs for:
 - File may not be a valid encrypted file
 - File may be corrupted during transfer
 
-## License
+## 📄 License
 
 MIT License - See LICENSE file for details
 
-## Contributing
+## 🤝 Contributing
 
 Feel free to submit issues and enhancement requests!
+
+⭐ Show Your Support
+If you find this project useful, please give it a star on GitHub!
